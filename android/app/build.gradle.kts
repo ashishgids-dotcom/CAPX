@@ -9,7 +9,7 @@ android {
 
     // ---- CRITICAL SDK REQUIREMENTS ----
     compileSdk = 36
-    ndkVersion = "28.2.13676358"
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         // Modern Java toolchain compatible with AGP 8.10 / compileSdk 36
@@ -18,11 +18,9 @@ android {
         isCoreLibraryDesugaringEnabled = true
     }
 
-    kotlin {
-    compilerOptions {
-        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
-}
 
     defaultConfig {
         applicationId = "com.example.capx_app"

@@ -26,8 +26,8 @@ plugins {
     // line (8.10.0, May 2025), which already supports compileSdk/targetSdk
     // 36. Once Flutter officially supports AGP 9, bump these two lines.
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
-    id("com.android.application") version "8.11.1" apply false
-    id("org.jetbrains.kotlin.android") version "2.4.10" apply false
+    id("com.android.application") version "8.10.0" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.20" apply false
 }
 
 include(":app")

@@ -79,7 +79,7 @@ flutter:
   assets:
     - assets/images/
     - assets/audio/
-   # - .env
+    - .env
 
   # fonts:
   #   - family: NotoSansDevanagari
